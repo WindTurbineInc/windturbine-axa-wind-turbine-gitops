@@ -1,0 +1,15 @@
+app:
+  name: windturbine-axa-wind-turbine-app
+  namespace: windturbine-axa
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/windturbine-axa-wind-turbine
+  org: WindTurbineInc
+  name: windturbine-axa-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: windturbine-axa/wind-turbine-app
+  tag: latest
